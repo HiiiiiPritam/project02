@@ -20,7 +20,7 @@ app.use("/api/category",categoryRoutes)
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/hacker3").then(console.log("MongoDb connected"))
+mongoose.connect("mongodb+srv://ratsdust4226:t7WFvEbidtzvVx3B@cluster0.yx7aqxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(console.log("MongoDb connected"))
 .catch((err)=>console.log(err))
 app.listen(5000, ()=>{
   console.log("server is running at the port 5000");
