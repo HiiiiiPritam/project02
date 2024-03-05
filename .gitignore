@@ -1,0 +1,65 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules
+/bower_components
+
+# Distribution directory
+/dist
+
+# Production build directory
+/build
+
+# Environment variables
+.env
+
+# IDE files
+.idea
+.vscode
+
+# Mac specific files
+.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled binary files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Project dependencies that should be ignored
+/.pnp
+.pnp.js
+
+# Misc
+.log
+*.sqlite3
+*.swp
